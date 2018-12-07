@@ -1,4 +1,4 @@
-package com.naka.nakaclient.swagger2;
+package com.naka.nakaclient.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

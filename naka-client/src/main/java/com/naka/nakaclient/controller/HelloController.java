@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  *@Description:
  **/
 @RestController
-public class HelloController {
+public class HelloController extends BaseController {
 
     @RequestMapping("/index")
     public String home(String name) {
