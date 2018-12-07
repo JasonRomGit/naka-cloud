@@ -1,0 +1,8 @@
+ribbon:
+  eager-load:
+    enabled: false
+
+instance:
+  prefer-ip-address: true
+
+

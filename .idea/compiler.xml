@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="naka-client" />
+        <module name="naka-common" />
+        <module name="naka-eureka-client" />
+        <module name="naka-eureka-client2" />
+        <module name="naka-eureka-server" />
+        <module name="naka-feign" />
+        <module name="naka-ribbon" />
+        <module name="naka-server" />
+        <module name="naka-sleuth" />
+        <module name="naka-web" />
+        <module name="naka-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="naka" target="1.8" />
+      <module name="naka-client" target="1.8" />
+      <module name="naka-common" target="1.8" />
+      <module name="naka-config" target="1.8" />
+      <module name="naka-eureka-client" target="1.8" />
+      <module name="naka-eureka-client2" target="1.8" />
+      <module name="naka-eureka-server" target="1.8" />
+      <module name="naka-feign" target="1.8" />
+      <module name="naka-ribbon" target="1.8" />
+      <module name="naka-server" target="1.8" />
+      <module name="naka-sleuth" target="1.8" />
+      <module name="naka-web" target="1.8" />
+      <module name="naka-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
