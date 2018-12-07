@@ -1,12 +1,17 @@
 package com.naka.nakaserver;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-public class NakaServerApplication {
+@EnableEurekaServer
+public class NakaServerApplication extends SpringApplicationBuilder {
 
     public static void main(String[] args) {
-        SpringApplication.run(NakaServerApplication.class, args);
+        new SpringApplicationBuilder(NakaServerApplication.class).web(WebApplicationType.SERVLET).run(args);
     }
 }
+

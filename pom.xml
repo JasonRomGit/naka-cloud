@@ -11,17 +11,15 @@
     <name>naka-manage</name>
     <description>naka-manage for Spring Boot</description>
     <modules>
-        <!--boss模块-->
-        <!--<module>naka-config</module>-->
-        <module>naka-eureka-client</module>
-        <module>naka-eureka-client2</module>
-        <module>naka-eureka-server</module>
+        <module>naka-common</module>
+        <module>naka-client</module>
+        <module>naka-client-one</module>
+        <module>naka-server</module>
         <module>naka-ribbon</module>
         <module>naka-feign</module>
         <module>naka-zuul</module>
         <module>naka-web</module>
         <module>naka-sleuth</module>
-
     </modules>
 
     <parent>

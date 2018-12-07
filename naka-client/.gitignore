@@ -1,5 +1,8 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+/mvnw
+/mvnw.cmd
+/naka-client.iml
 
 ### STS ###
 .apt_generated

@@ -1,6 +1,9 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
-
+/mvnw.cmd
+/target
+/naka-server.iml
+/mvnw
 ### STS ###
 .apt_generated
 .classpath

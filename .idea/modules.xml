@@ -4,10 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/naka.iml" filepath="$PROJECT_DIR$/.idea/naka.iml" />
       <module fileurl="file://$PROJECT_DIR$/naka-client/naka-client.iml" filepath="$PROJECT_DIR$/naka-client/naka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naka-client-one/naka-client-one.iml" filepath="$PROJECT_DIR$/naka-client-one/naka-client-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/naka-common/naka-common.iml" filepath="$PROJECT_DIR$/naka-common/naka-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/naka-eureka-client/naka-eureka-client.iml" filepath="$PROJECT_DIR$/naka-eureka-client/naka-eureka-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/naka-eureka-client2/naka-eureka-client2.iml" filepath="$PROJECT_DIR$/naka-eureka-client2/naka-eureka-client2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/naka-eureka-server/naka-eureka-server.iml" filepath="$PROJECT_DIR$/naka-eureka-server/naka-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/naka-feign/naka-feign.iml" filepath="$PROJECT_DIR$/naka-feign/naka-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/naka-ribbon/naka-ribbon.iml" filepath="$PROJECT_DIR$/naka-ribbon/naka-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/naka-server/naka-server.iml" filepath="$PROJECT_DIR$/naka-server/naka-server.iml" />
